@@ -1,0 +1,82 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    color: #434141;
+    flex-grow: 1;
+}
+
+footer {
+    color: #434141;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    font-size: small;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    padding-top: 15px;
+    width: 25px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.help-icon {
+    padding: 0px 20px;
+    color: #434141;
+}
+
+.help-icon a{
+    color: #434141;
+}
+
+.help-icon img{
+    padding:0px 10px;
+    width: 3vh;
+    height: 3vh;
+}
+
+.navbar :hover{
+    color: black;
+}

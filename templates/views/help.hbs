@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Help </title>
+    <link rel="icon" href="/img/favicon.png">
+</head>
+
+<body>
+    <header>
+        <h1> {{title}} </h1>
+        <div class="navbar">
+            <a href="/"> Weather </a>
+            <a href="/about"> About </a>
+            <a href="/help" style="color: black;"> Help </a>
+        </div>
+    </header>
+    <div class="main-content">
+        {{>header}}
+        <p style="font-weight: 20px;">
+            Contact Details :
+            <p class="help-icon"><br>
+               <img src="/img/user.png" alt=""> Yash Lakade <br><br>
+               <img src="/img/email.png" alt=""> YashLakade2002@gmail.com <br><br>
+               <img src="/img/linkedin.png" alt=""> <a href="https://www.linkedin.com/in/yashlakade/" style="text-decoration: none;"> Linkedin </a> <br><br>
+               <img src="/img/github.png" alt=""> <a href="https://github.com/YashLakade2002" style="text-decoration: none;"> GitHub </a> <br>
+
+            </p>
+        </p>
+    </div>
+    
+    {{>footer}}
+</body>
+
+</html>
